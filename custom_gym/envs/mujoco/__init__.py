@@ -90,6 +90,11 @@ register(
 )
 
 register(
+    id='UnicyclePendulumTrajectory-v0-paul',
+    entry_point='custom_gym.envs.mujoco.unicycle_pendulum_trajectory_3d_v0_paul:UnicyclePendulumTrajectory',
+)
+
+register(
     id='SolutionUnicyclePendulumTrajectory-v0',
     entry_point='custom_gym.envs.mujoco.solution_unicycle_pendulum_trajectory_3d_v0:SolutionUnicyclePendulumTrajectory',
 )
